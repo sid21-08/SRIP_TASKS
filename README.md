@@ -71,9 +71,15 @@ I then summarised the PyC3 sampler(nuts) in pm model.
 
 
 In order to compare the simple linear regression and bayesian linear regression I plotted both graphs. The mean value for both parameters is same for both simple and bayesian linear regression models.
+
+
 ![image](https://user-images.githubusercontent.com/59621102/162633806-1319ee6a-cbfa-4ef7-b4b6-f0e1a79e73ea.png)
+
+
 Simple LR
 ![image](https://user-images.githubusercontent.com/59621102/162633819-aafadb68-a1a8-4a48-8e4e-b4f235f10fe3.png)
+
+
 Bayesian LR
 All the graphs have 94% HDI(Highest Density Interval) which means credible interval has to remove 3% from each tail of distribution. Credible interval means the range containing a particular percentage of probable values
 ![image](https://user-images.githubusercontent.com/59621102/162633845-46379258-71f9-4da4-827b-4fdea900f84d.png)
