@@ -1,6 +1,9 @@
 # SRIP_TASKS
 TASK-2:
 #Multivariate Normal Distribution sampling
+
+
+
 In the beginning I randomly created standard normal samples by using Box-Mueller transformation. I also created covariance and mean matrix by using jax library
 I then multiplied covariance matrix with its transpose in order to make the covariance matrix symmetric. This is dBone for the cholesky decomposition.
 CHOLESKY DECOMPOSITION:
@@ -18,6 +21,10 @@ I tried to implement 10 dimensional matrix but I faced an error of the covarianc
 
 TASK-3:
 #Hidden layer neural network classifier
+
+
+
+
 In the beginning I loaded the MNIST dataset with the help of tensorflow datasets. Once I have loaded the dataset, I can easily extract the training and testing dataset with the built references. Instead of splitting the MNIST dataset into 80:20 I have used built in reference. 
 I also used validation i.e. 10% of training data.
 
@@ -39,6 +46,10 @@ I was unable to use the JAX gradient descent method.
 
 TASK-4:
 #Bayesian Linear Regression using BlackJax sampler
+
+
+
+
 In the beginning I generated artificial linear data.
 ![image](https://user-images.githubusercontent.com/59621102/162633677-3110e9f0-de66-4a72-b0df-8de8f7eacd50.png)
 
