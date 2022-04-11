@@ -62,7 +62,15 @@ TASK-4:
 
 
 In the beginning I generated artificial linear data.
+
+
+
+
 ![image](https://user-images.githubusercontent.com/59621102/162633677-3110e9f0-de66-4a72-b0df-8de8f7eacd50.png)
+
+
+
+
 
 I then tried using the blackjax sampler(HMC).
 ![image](https://user-images.githubusercontent.com/59621102/162633697-5f0f85b4-dd65-44e5-8126-71120e7c8144.png)
