@@ -96,11 +96,23 @@ In order to compare the simple linear regression and bayesian linear regression 
 
 
 Simple LR
+
+
+
 ![image](https://user-images.githubusercontent.com/59621102/162633819-aafadb68-a1a8-4a48-8e4e-b4f235f10fe3.png)
 
 
+
+
+
 Bayesian LR
+
+
 All the graphs have 94% HDI(Highest Density Interval) which means credible interval has to remove 3% from each tail of distribution. Credible interval means the range containing a particular percentage of probable values
+
+
+
+
 ![image](https://user-images.githubusercontent.com/59621102/162633845-46379258-71f9-4da4-827b-4fdea900f84d.png)
 
 ![image](https://user-images.githubusercontent.com/59621102/162633865-f01ef305-0f64-46e5-86b8-3dfa6850963e.png)
