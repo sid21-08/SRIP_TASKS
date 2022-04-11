@@ -10,8 +10,13 @@ CHOLESKY DECOMPOSITION:
 The Cholesky decomposition or Cholesky factorization is a decomposition of a Hermitian, positive-definite matrix into the product of a lower triangular matrix and its conjugate transpose. The Cholesky decomposition is roughly twice as efficient as the LU decomposition for solving systems of linear equations.
 In univariate normal distribution, Y=T+PX where T is mean vector and P is standard deviation. For multivariate normal distribution, Y=T+LX. Here we have the covariance matrix instead of variance. Like in univariate distribution where we take the square root of variance into consideration, here we take the square root of symmetric positive definite matrix i.e. Cholesky factor into consideration.
 ![image](https://user-images.githubusercontent.com/59621102/162633495-25a0d635-95a3-4c28-b3f3-197eca0ba527.png)
+
+
 This is the initial covariance matrix.
 ![image](https://user-images.githubusercontent.com/59621102/162633525-36951ac0-b60b-4d44-8d48-6997ebd07037.png)
+
+
+
 This is the final covariance matrix
 
 In the end I used jax.numpy package to find mean and covariance of the newly formed sample. Comparing mean and covariance of both the samples i.e the beginning and the newly formed sample I found out that mean and covariance values are very close to each other.
