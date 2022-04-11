@@ -35,7 +35,13 @@ I also used validation i.e. 10% of training data.
 
 The next step is to outline the model. I have taken the input layer_size as 784 and output layer_size as 10. I have manually taken number of neurons in the hidden layer as 50.
 I then successfully created two hidden layers whose activation function is ReLu. The output layer's activation function is SoftMax.
+
+
+
 ![image](https://user-images.githubusercontent.com/59621102/162633595-8280da63-5392-443c-9581-f7294db3d4cf.png)
+
+
+
 
 I then compiled the model by using Adam Optimizer
 
