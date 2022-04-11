@@ -119,6 +119,13 @@ All the graphs have 94% HDI(Highest Density Interval) which means credible inter
 
 
 
+LIMITATIONS:
+
+
+I have successfully sampled the data using blackjax sampler(both nuts and hmc). But I was unable to use the sampler in the model due to which I used PyMC package.
+
+
+
 
 
 
